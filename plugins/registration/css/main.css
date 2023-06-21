@@ -158,7 +158,7 @@ h6 {
    #BACKGROUND
    ========================================================================== */
 .bg-blue {
-  background: #2c6ed5;
+  background: #AAE077;
 }
 
 /* ==========================================================================
@@ -170,6 +170,12 @@ h6 {
 
 .p-t-20 {
   padding-top: 20px;
+}
+
+.p-t-100 a {
+  text-decoration : none;
+  padding-left : 20px;
+  color : #57b846;
 }
 
 .p-b-100 {
@@ -223,7 +229,7 @@ h6 {
    #DATE PICKER
    ========================================================================== */
 td.active {
-  background-color: #2c6ed5;
+  background-color: #dddddd;
 }
 
 input[type="date" i] {
@@ -441,7 +447,7 @@ input {
 }
 
 .card-1 .card-heading {
-  background: url("../images/bg-head-02.jpg") center center/cover no-repeat;
+  background: url("../images/bg-head-02.jpeg") center center/cover no-repeat;
   padding-top: 210px;
 }
 

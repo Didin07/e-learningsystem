@@ -21,6 +21,9 @@ if (isset($_SESSION['StudentID'])) {
     <!-- Title Page-->
     <title>Au Register Forms by Colorlib</title>
 
+    <!--icon tab-->
+    <link rel="icon" href="images/logobmkg.ico"/>
+    
     <!-- Icons font CSS-->
     <link href="<?php echo web_root;?>plugins/registration/vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
     <link href="<?php echo web_root;?>plugins/registration/vendor/font-awesome-4.7/css/font-awesome.min.css" rel="stylesheet" media="all">

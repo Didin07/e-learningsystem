@@ -1014,14 +1014,14 @@ header .navbar-primary .navbar-inner nav li.blob  {
 
 .btn-success:active,
 .btn-success.active {
-  background: #286507 \9;
+  background: #286507 ;
 }
 
 .btn-info {
   color: #ffffff;
   text-shadow: none;
-  background-color: #048d9d;
-  *background-color: #048d9d;
+  background-color: #286507;
+  *background-color: #286507;
   background-image: -moz-linear-gradient(top, #048d9d, #048d9d);
   background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#048d9d), to(#048d9d));
   background-image: -webkit-linear-gradient(top, #048d9d, #048d9d);

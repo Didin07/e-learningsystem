@@ -23,6 +23,12 @@
   clear: both;
 }
 
+ /*new codingan*/
+ .jumbotron {
+  background : url('images/jumbotron.jpg');
+  background-size : cover;
+ }
+
 .hide-text {
   font: 0/0 a;
   color: transparent;

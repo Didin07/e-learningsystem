@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Lumia - Multipurpose responsive bootstrap website template</title>
+  <title>LMS-BMKG</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="">
   <meta name="author" content="">
@@ -17,8 +17,11 @@
   <link href="<?php echo web_root;?>plugins/homepage/assets/color/cyan.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,600,400italic|Open+Sans:400,600,700" rel="stylesheet">
 
+  <!--link bootstrap-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
   <!-- fav and touch icons -->
-  <link rel="shortcut icon" href="assets/ico/favicon.ico">
+  <link rel="shortcut icon" href="images/logobmkg.ico">
   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="<?php echo web_root;?>plugins/homepage/assets/ico/apple-touch-icon-144-precomposed.png">
   <link rel="apple-touch-icon-precomposed" sizes="114x114" href="<?php echo web_root;?>plugins/homepage/assets/ico/apple-touch-icon-114-precomposed.png">
   <link rel="apple-touch-icon-precomposed" sizes="72x72" href="<?php echo web_root;?>plugins/homepage/assets/ico/apple-touch-icon-72-precomposed.png">
@@ -41,12 +44,13 @@
       <div class="navbar navbar-static-top">
         <div class="navbar-inner">
           <div class="container">
+
             <!-- logo -->
             <div class="logo">
               <a href="index.html"><img src="assets/img/logo.png" alt="" /></a>
             </div>
             <!-- end logo -->
-
+  
             <!-- top menu -->
             <div class="navigation">
               <nav>
@@ -70,18 +74,28 @@
               </nav>
             </div>
             <!-- end menu -->
-
           </div>
         </div>
       </div>
     </header>
 
+
+    <!--jumbotron-->
+    <section class="jumbotron jumbotron-fluid" style="background:url('images/Students-cuate.png'); background-size:cover; height:605px;background-position: 0 -160px;">
+      <div class="container">
+        <h1 class="display-4 " style="font-size: 6rem;font-weight: 700;line-height: 0.7;">LMS BMKG</h1>
+        <p class="lead">Web Learning Management System BMKG memberikan kemudahan akses di mana saja.</p>
+      </div>
+    </section>
+
     <section id="maincontent">
+      
       <div class="container"> 
-<?php check_message(); ?>  
-    <?php require_once $content; ?> 
-  </div>   
-</section>
+        <?php check_message(); ?>  
+        <?php require_once $content; ?> 
+      </div>   
+    </section>
+
  <script src="<?php echo web_root;?>plugins/homepage/assets/js/jquery.js"></script>
   <script src="<?php echo web_root;?>plugins/homepage/assets/js/raphael-min.js"></script>
   <script src="<?php echo web_root;?>plugins/homepage/assets/js/jquery.easing.1.3.js"></script>
