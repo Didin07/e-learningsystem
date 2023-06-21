@@ -17,19 +17,19 @@
             <div class="navbar-inner">
                 <div class="container">
                     <a class="btn btn-navbar" data-toggle="collapse" data-target=".navbar-inverse-collapse">
-                        <i class="icon-reorder shaded"></i></a><a class="brand" href="index.html">E-Learning System </a>
+                        <i class="icon-reorder shaded"></i></a><a class="brand" href="index.html">Selamat Datang Admin !</a>
                     <div class="nav-collapse collapse navbar-inverse-collapse">
                          
                         <ul class="nav pull-right">
                             <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Add
                                 <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="<?php echo web_root;?>admin/modules/exercises/index.php?view=add">Exercises</a></li>
-                                    <li><a href="<?php echo web_root;?>admin/modules/lesson/index.php?view=add">Lesson</a></li> 
+                                    <li><a href="<?php echo web_root;?>admin/modules/exercises/index.php?view=add">Latihan</a></li>
+                                    <li><a href="<?php echo web_root;?>admin/modules/lesson/index.php?view=add">Mendengarkan</a></li> 
                                 </ul>
                             </li> 
                             <li class="nav-user dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                                <img src="images/user.png" class="nav-avatar" />
+                                <img src="/admin/adminMenu/images/user.png" class="nav-avatar" />
                                 <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     <li><a href="#">Your Profile</a></li>
@@ -90,7 +90,7 @@
 
          <div class="footer">
             <div class="container">
-                <b class="copyright">&copy; 2020 Ser Bermz </b>All rights reserved.
+                <b class="copyright">&copy; 2023 Oleh Kelompok 6 ( Rekayasa Perangkat Lunak) </b>All rights reserved.
             </div>
         </div>
         <script src="<?php echo web_root; ?>e_admin/scripts/jquery-1.9.1.min.js" type="text/javascript"></script>
