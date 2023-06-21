@@ -37,12 +37,12 @@ if (isset($_SESSION['StudentID'])) {
            <?php check_message(); ?>
       <div class="wrap-login100">
         <div class="login100-pic js-tilt" data-tilte>
-          <img src="<?php echo web_root; ?>images/pshs.png" alt="IMG">
+          <img src="<?php echo web_root; ?>images/logobmkg.webp" alt="IMG">
         </div>
          
         <form class="login100-form validate-form" action="" method="POST"> 
           <span class="login100-form-title">
-            Member Login 
+            Participant Login 
           </span>
 
           <div class="wrap-input100 validate-input" >
