@@ -79,22 +79,16 @@
       </div>
     </header>
 
-
-    <!--jumbotron-->
-    <section class="jumbotron jumbotron-fluid" style="background:url('images/Students-cuate.png'); background-size:cover; height:605px;background-position: 0 -160px;">
-      <div class="container">
-        <h1 class="display-4 " style="font-size: 6rem;font-weight: 700;line-height: 0.7;">LMS BMKG</h1>
-        <p class="lead">Web Learning Management System BMKG memberikan kemudahan akses di mana saja.</p>
-      </div>
-    </section>
-
     <section id="maincontent">
-      
+
       <div class="container"> 
         <?php check_message(); ?>  
         <?php require_once $content; ?> 
       </div>   
     </section>
+
+
+
 
  <script src="<?php echo web_root;?>plugins/homepage/assets/js/jquery.js"></script>
   <script src="<?php echo web_root;?>plugins/homepage/assets/js/raphael-min.js"></script>
