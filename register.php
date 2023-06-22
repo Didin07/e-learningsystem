@@ -19,7 +19,7 @@ if (isset($_SESSION['StudentID'])) {
     <meta name="keywords" content="Colorlib Templates">
 
     <!-- Title Page-->
-    <title>Au Register Forms by Colorlib</title>
+    <title>LMS-BMKG</title>
 
     <!--icon tab-->
     <link rel="icon" href="images/logobmkg.ico"/>
