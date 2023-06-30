@@ -188,6 +188,7 @@ CREATE TABLE `tblusers` (
 
 INSERT INTO `tblusers` (`USERID`, `NAME`, `UEMAIL`, `PASS`, `TYPE`) VALUES
 (1, 'Lyndon Bermoy', 'serbermz', 'd033e22ae348aeb5660fc2140aec35850c4da997', 'Administrator');
+(2, 'Kelompok6', 'kelompok6', '913906004e2ee9a233dfea01dec595d4755d111c', 'Administrator');
 
 --
 -- Indexes for dumped tables
